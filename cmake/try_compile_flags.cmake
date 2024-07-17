@@ -1,0 +1,8 @@
+include(include_modules)
+function(try_compile_flags _target _lang _config _flag)
+    set(_result FALSE)
+    CHECK_COMPILER_FLAG(${_lang} "${_flag}" _result)
+    if(_result)
+        target_compile_options("${_target}" "${_config}" "${_flag}")
+    endif()
+endfunction()

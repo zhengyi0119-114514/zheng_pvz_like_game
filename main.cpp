@@ -1,8 +1,8 @@
-﻿#include <iostream>
+﻿#include <format>
+#include <iostream>
 
 
 int main()
 {
-	std::cout << "Hello CMake." << std::endl;
-	return 0;
+	auto message = std::format(L"");
 }

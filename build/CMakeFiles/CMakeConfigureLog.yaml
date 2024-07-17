@@ -24,7 +24,7 @@ events:
       The output was:
       0
       閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.10.4+10fbfbf2e
-      鐢熸垚鍚姩鏃堕棿涓?2024/7/17 14:09:34銆?
+      鐢熸垚鍚姩鏃堕棿涓?2024/7/17 15:20:41銆?
       
       鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\3.30.0\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 涓鍛?
           0 涓敊璇?
       
-      宸茬敤鏃堕棿 00:00:01.07
+      宸茬敤鏃堕棿 00:00:01.06
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.10.4+10fbfbf2e
-      鐢熸垚鍚姩鏃堕棿涓?2024/7/17 14:09:35銆?
+      鐢熸垚鍚姩鏃堕棿涓?2024/7/17 15:20:42銆?
       
       鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\3.30.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
       PrepareForBuild:
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-ty5zrc"
-      binary: "C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-ty5zrc"
+      source: "C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-3cngqu"
+      binary: "C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-3cngqu"
     cmakeVariables:
       CMAKE_C_FLAGS: "/MP16 /DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -140,40 +140,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-ty5zrc'
+        Change Dir: 'C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-3cngqu'
         
-        Run Build Command(s): D:/vs/ide/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_16a4d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): D:/vs/ide/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0cef8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.10.4+10fbfbf2e
-        鐢熸垚鍚姩鏃堕棿涓?2024/7/17 14:09:36銆?
+        鐢熸垚鍚姩鏃堕棿涓?2024/7/17 15:20:43銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ty5zrc\\cmTC_16a4d.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3cngqu\\cmTC_0cef8.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_16a4d.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_0cef8.dir\\Debug\\鈥濄€?
           宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ty5zrc\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_16a4d.dir\\Debug\\cmTC_16a4d.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3cngqu\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_0cef8.dir\\Debug\\cmTC_0cef8.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_16a4d.dir\\Debug\\cmTC_16a4d.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_16a4d.dir\\Debug\\cmTC_16a4d.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_0cef8.dir\\Debug\\cmTC_0cef8.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_0cef8.dir\\Debug\\cmTC_0cef8.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         ClCompile:
-          D:\\vs\\ide\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /MP16 /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16a4d.dir\\Debug\\\\" /Fd"cmTC_16a4d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          D:\\vs\\ide\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /MP16 /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0cef8.dir\\Debug\\\\" /Fd"cmTC_0cef8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.40.33812 鐗?
           鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W1 /WX- /diagnostics:column /MP16 /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16a4d.dir\\Debug\\\\" /Fd"cmTC_16a4d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /MP16 /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0cef8.dir\\Debug\\\\" /Fd"cmTC_0cef8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          D:\\vs\\ide\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ty5zrc\\Debug\\cmTC_16a4d.exe" /INCREMENTAL /ILK:"cmTC_16a4d.dir\\Debug\\cmTC_16a4d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-ty5zrc/Debug/cmTC_16a4d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-ty5zrc/Debug/cmTC_16a4d.lib" /MACHINE:X64  /machine:x64 cmTC_16a4d.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_16a4d.vcxproj -> C:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ty5zrc\\Debug\\cmTC_16a4d.exe
+          D:\\vs\\ide\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3cngqu\\Debug\\cmTC_0cef8.exe" /INCREMENTAL /ILK:"cmTC_0cef8.dir\\Debug\\cmTC_0cef8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-3cngqu/Debug/cmTC_0cef8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-3cngqu/Debug/cmTC_0cef8.lib" /MACHINE:X64  /machine:x64 cmTC_0cef8.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_0cef8.vcxproj -> C:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3cngqu\\Debug\\cmTC_0cef8.exe
         FinalizeBuildStatus:
-          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_16a4d.dir\\Debug\\cmTC_16a4d.tlog\\unsuccessfulbuild鈥濄€?
-          姝ｅ湪瀵光€渃mTC_16a4d.dir\\Debug\\cmTC_16a4d.tlog\\cmTC_16a4d.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ty5zrc\\cmTC_16a4d.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_0cef8.dir\\Debug\\cmTC_0cef8.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_0cef8.dir\\Debug\\cmTC_0cef8.tlog\\cmTC_0cef8.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3cngqu\\cmTC_0cef8.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
         
         宸叉垚鍔熺敓鎴愩€?
             0 涓鍛?
             0 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:00.78
+        宸茬敤鏃堕棿 00:00:00.73
         
       exitCode: 0
   -
@@ -213,8 +213,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-frp8g0"
-      binary: "C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-frp8g0"
+      source: "C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-o8esxd"
+      binary: "C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-o8esxd"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/MP16 /DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -227,40 +227,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-frp8g0'
+        Change Dir: 'C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-o8esxd'
         
-        Run Build Command(s): D:/vs/ide/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_50043.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): D:/vs/ide/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_cb209.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.10.4+10fbfbf2e
-        鐢熸垚鍚姩鏃堕棿涓?2024/7/17 14:09:37銆?
+        鐢熸垚鍚姩鏃堕棿涓?2024/7/17 15:20:44銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frp8g0\\cmTC_50043.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o8esxd\\cmTC_cb209.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_50043.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_cb209.dir\\Debug\\鈥濄€?
           宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frp8g0\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_50043.dir\\Debug\\cmTC_50043.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o8esxd\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_cb209.dir\\Debug\\cmTC_cb209.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_50043.dir\\Debug\\cmTC_50043.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_50043.dir\\Debug\\cmTC_50043.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_cb209.dir\\Debug\\cmTC_cb209.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_cb209.dir\\Debug\\cmTC_cb209.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         ClCompile:
-          D:\\vs\\ide\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /MP16 /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /Fo"cmTC_50043.dir\\Debug\\\\" /Fd"cmTC_50043.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          D:\\vs\\ide\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /MP16 /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /Fo"cmTC_cb209.dir\\Debug\\\\" /Fd"cmTC_cb209.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.40.33812 鐗?
           鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W1 /WX- /diagnostics:column /MP16 /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /Fo"cmTC_50043.dir\\Debug\\\\" /Fd"cmTC_50043.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /MP16 /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /Fo"cmTC_cb209.dir\\Debug\\\\" /Fd"cmTC_cb209.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          D:\\vs\\ide\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frp8g0\\Debug\\cmTC_50043.exe" /INCREMENTAL /ILK:"cmTC_50043.dir\\Debug\\cmTC_50043.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-frp8g0/Debug/cmTC_50043.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-frp8g0/Debug/cmTC_50043.lib" /MACHINE:X64  /machine:x64 cmTC_50043.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_50043.vcxproj -> C:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frp8g0\\Debug\\cmTC_50043.exe
+          D:\\vs\\ide\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o8esxd\\Debug\\cmTC_cb209.exe" /INCREMENTAL /ILK:"cmTC_cb209.dir\\Debug\\cmTC_cb209.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-o8esxd/Debug/cmTC_cb209.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-o8esxd/Debug/cmTC_cb209.lib" /MACHINE:X64  /machine:x64 cmTC_cb209.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_cb209.vcxproj -> C:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o8esxd\\Debug\\cmTC_cb209.exe
         FinalizeBuildStatus:
-          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_50043.dir\\Debug\\cmTC_50043.tlog\\unsuccessfulbuild鈥濄€?
-          姝ｅ湪瀵光€渃mTC_50043.dir\\Debug\\cmTC_50043.tlog\\cmTC_50043.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frp8g0\\cmTC_50043.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_cb209.dir\\Debug\\cmTC_cb209.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_cb209.dir\\Debug\\cmTC_cb209.tlog\\cmTC_cb209.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o8esxd\\cmTC_cb209.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
         
         宸叉垚鍔熺敓鎴愩€?
             0 涓鍛?
             0 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:00.78
+        宸茬敤鏃堕棿 00:00:00.76
         
       exitCode: 0
   -
@@ -301,13 +301,13 @@ events:
       - "C:/Users/zheng/.conan2/p/pybin6432d3a4457b4/p/lib/cmake/pybind11/pybind11Common.cmake:364 (_pybind11_return_if_cxx_and_linker_flags_work)"
       - "C:/Users/zheng/.conan2/p/pybin6432d3a4457b4/p/lib/cmake/pybind11/pybind11Common.cmake:409 (_pybind11_generate_lto)"
       - "build/pybind11-config.cmake:38 (include)"
-      - "find_pkg.cmake:18 (find_package)"
+      - "find_pkg.cmake:19 (find_package)"
       - "CMakeLists.txt:14 (include)"
     checks:
       - "Performing Test HAS_MSVC_GL_LTCG"
     directories:
-      source: "C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-jys9di"
-      binary: "C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-jys9di"
+      source: "C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-k88rlf"
+      binary: "C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-k88rlf"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/MP16 /DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -319,48 +319,48 @@ events:
       variable: "HAS_MSVC_GL_LTCG"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-jys9di'
+        Change Dir: 'C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-k88rlf'
         
-        Run Build Command(s): D:/vs/ide/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fb697.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): D:/vs/ide/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_06d2f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.10.4+10fbfbf2e
-        鐢熸垚鍚姩鏃堕棿涓?2024/7/17 14:09:40銆?
+        鐢熸垚鍚姩鏃堕棿涓?2024/7/17 15:20:46銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jys9di\\cmTC_fb697.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k88rlf\\cmTC_06d2f.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_fb697.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_06d2f.dir\\Debug\\鈥濄€?
           宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
-          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jys9di\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_fb697.dir\\Debug\\cmTC_fb697.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k88rlf\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_06d2f.dir\\Debug\\cmTC_06d2f.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_fb697.dir\\Debug\\cmTC_fb697.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_fb697.dir\\Debug\\cmTC_fb697.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_06d2f.dir\\Debug\\cmTC_06d2f.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_06d2f.dir\\Debug\\cmTC_06d2f.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         ClCompile:
-          D:\\vs\\ide\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /MP16 /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /Fo"cmTC_fb697.dir\\Debug\\\\" /Fd"cmTC_fb697.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jys9di\\src.cxx"
+          D:\\vs\\ide\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /MP16 /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /Fo"cmTC_06d2f.dir\\Debug\\\\" /Fd"cmTC_06d2f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k88rlf\\src.cxx"
           鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.40.33812 鐗?
           鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
-          cl /c /Zi /W1 /WX- /diagnostics:column /MP16 /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /Fo"cmTC_fb697.dir\\Debug\\\\" /Fd"cmTC_fb697.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jys9di\\src.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /MP16 /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++20 /Fo"cmTC_06d2f.dir\\Debug\\\\" /Fd"cmTC_06d2f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k88rlf\\src.cxx"
           src.cxx
         Link:
-          D:\\vs\\ide\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jys9di\\Debug\\cmTC_fb697.exe" /INCREMENTAL /ILK:"cmTC_fb697.dir\\Debug\\cmTC_fb697.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-jys9di/Debug/cmTC_fb697.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-jys9di/Debug/cmTC_fb697.lib" /MACHINE:X64  /machine:x64 cmTC_fb697.dir\\Debug\\src.obj
-        LINK : warning LNK4075: 蹇界暐鈥?INCREMENTAL鈥?鐢变簬鈥?LTCG鈥濊鑼? [C:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jys9di\\cmTC_fb697.vcxproj]
+          D:\\vs\\ide\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k88rlf\\Debug\\cmTC_06d2f.exe" /INCREMENTAL /ILK:"cmTC_06d2f.dir\\Debug\\cmTC_06d2f.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-k88rlf/Debug/cmTC_06d2f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/CMakeScratch/TryCompile-k88rlf/Debug/cmTC_06d2f.lib" /MACHINE:X64  /machine:x64 cmTC_06d2f.dir\\Debug\\src.obj
+        LINK : warning LNK4075: 蹇界暐鈥?INCREMENTAL鈥?鐢变簬鈥?LTCG鈥濊鑼? [C:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k88rlf\\cmTC_06d2f.vcxproj]
           姝ｅ湪鐢熸垚浠ｇ爜
           宸插畬鎴愪唬鐮佺殑鐢熸垚
-          cmTC_fb697.vcxproj -> C:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jys9di\\Debug\\cmTC_fb697.exe
+          cmTC_06d2f.vcxproj -> C:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k88rlf\\Debug\\cmTC_06d2f.exe
         FinalizeBuildStatus:
-          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_fb697.dir\\Debug\\cmTC_fb697.tlog\\unsuccessfulbuild鈥濄€?
-          姝ｅ湪瀵光€渃mTC_fb697.dir\\Debug\\cmTC_fb697.tlog\\cmTC_fb697.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jys9di\\cmTC_fb697.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_06d2f.dir\\Debug\\cmTC_06d2f.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_06d2f.dir\\Debug\\cmTC_06d2f.tlog\\cmTC_06d2f.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k88rlf\\cmTC_06d2f.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
         
         宸叉垚鍔熺敓鎴愩€?
         
-        鈥淐:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jys9di\\cmTC_fb697.vcxproj鈥?榛樿鐩爣) (1) ->
+        鈥淐:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k88rlf\\cmTC_06d2f.vcxproj鈥?榛樿鐩爣) (1) ->
         (Link 鐩爣) -> 
-          LINK : warning LNK4075: 蹇界暐鈥?INCREMENTAL鈥?鐢变簬鈥?LTCG鈥濊鑼? [C:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jys9di\\cmTC_fb697.vcxproj]
+          LINK : warning LNK4075: 蹇界暐鈥?INCREMENTAL鈥?鐢变簬鈥?LTCG鈥濊鑼? [C:\\Users\\zheng\\Documents\\new\\zheng_pvz_like_game\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k88rlf\\cmTC_06d2f.vcxproj]
         
             1 涓鍛?
             0 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:00.78
+        宸茬敤鏃堕棿 00:00:00.93
         
       exitCode: 0
 ...

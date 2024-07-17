@@ -1,0 +1,6 @@
+if(NOT DEFINED __INCLUDE_MODULES)
+    set(__INCLUDE_MODULES 1)
+    include(CheckCompilerFlag)
+    include(FetchContent)
+    include(GNUInstallDirs)
+endif()

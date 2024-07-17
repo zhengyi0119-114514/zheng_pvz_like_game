@@ -6,5 +6,6 @@ find_package(pybind11)
 find_package(mbits-utfconv)
 find_package(tinyxml2)
 find_package(brynet)
+find_package(spdlog)
 
-set(CONANDEPS_LEGACY  SDL2::SDL2main  pybind11_all_do_not_use  mbits::utfconv  tinyxml2::tinyxml2  brynet::brynet )
+set(CONANDEPS_LEGACY  SDL2::SDL2main  pybind11_all_do_not_use  mbits::utfconv  tinyxml2::tinyxml2  brynet::brynet  spdlog::spdlog )

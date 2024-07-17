@@ -1,9 +1,10 @@
-include(FetchContent)
+include(include_modules)
 find_package(Python REQUIRED)
 
+#sdl2:图形库-0
 find_package(SDL2 QUIET)
-
-	if(NOT SDL2_FOUND AND NOT SDL2_FIND)
+	
+if(NOT SDL2_FOUND AND NOT SDL2_FIND)
 	message(STATUS "Cannot find SDL2 lib")
 	FetchContent_Declare(
 		SDL2
@@ -14,7 +15,7 @@ find_package(SDL2 QUIET)
 endif()
 
 
-
+#pybind11：python绑定-1
 find_package(pybind11 QUIET)
 
 if(NOT pybind11_FOUND AND NOT pybind11_FIND)
@@ -26,6 +27,7 @@ if(NOT pybind11_FOUND AND NOT pybind11_FIND)
 	FetchContent_MakeAvailable(pybind11)
 endif()
 
+#tinyxml2：xml库
 find_package(tinyxml2 QUIET)
 
 if(NOT tinyxml2_FOUND AND NOT tinyxml2_FIND)
@@ -37,6 +39,8 @@ if(NOT tinyxml2_FOUND AND NOT tinyxml2_FIND)
 	FetchContent_MakeAvailable(tinyxml2)
 endif()
 
+
+#mbits-utfconv:UTF转化库
 find_package(mbits-utfconv QUIET)
 
 if(NOT mbits-utfconv_FOUND AND NOT mbits-utfconv_FIND)
@@ -47,6 +51,7 @@ if(NOT mbits-utfconv_FOUND AND NOT mbits-utfconv_FIND)
 	)
 	FetchContent_MakeAvailable(mbits-utfconv)
 endif()
+
 
 find_package(brynet QUIET)
 
@@ -59,3 +64,13 @@ if(NOT brynet_FOUND AND NOT brynet_FIND)
 	FetchContent_MakeAvailable(brynet)
 endif()
 
+find_package(spdlog)
+
+if(NOT spdlog_FOUND AND NOT spdlog_FIND)
+    FetchContent_Declare(
+        spdlog
+        GIT_REPOSITORY "https://github.com/gabime/spdlog.git"
+        GIT_TAG "v1.14.1"
+    )
+    FetchContent_MakeAvailable(spdlog)
+endif()

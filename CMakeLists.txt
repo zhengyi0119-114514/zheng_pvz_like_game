@@ -13,7 +13,11 @@ project ("zheng_pvz_like_game")
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}" "${CMAKE_SOURCE_DIR}/cmake")
 include(find_pkg)
 include(defualt_project)
+
+add_subdirectory(src)
+
 # 将源代码添加到此项目的可执行文件。
 add_executable (game)
-set_property(TARGET game PROPERTY CXX_STANDARD 20)
+
 target_sources(game PRIVATE main.cpp)
+target_link_libraries(game PRIVATE base)
