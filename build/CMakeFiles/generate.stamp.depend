@@ -1,0 +1,84 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/ExternalProject/shared_internal_commands.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FetchContent.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindPython.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindPython/Support.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake
+C:/Users/zheng/.conan2/p/opens222f7cf8c41ed/p/lib/cmake/conan-official-openssl-variables.cmake
+C:/Users/zheng/.conan2/p/pybin6432d3a4457b4/p/lib/cmake/pybind11/pybind11Common.cmake
+C:/Users/zheng/.conan2/p/pybin6432d3a4457b4/p/lib/cmake/pybind11/pybind11NewTools.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/CMakeLists.txt
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/3.30.0/CMakeCCompiler.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/3.30.0/CMakeCXXCompiler.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/3.30.0/CMakeRCCompiler.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/3.30.0/CMakeSystem.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/OpenSSL-Target-release.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/OpenSSL-release-x86_64-data.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/OpenSSLConfig.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/OpenSSLConfigVersion.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/OpenSSLTargets.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/SDL2-Target-release.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/SDL2-release-x86_64-data.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/SDL2Config.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/SDL2ConfigVersion.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/SDL2Targets.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/ZLIB-Target-release.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/ZLIB-release-x86_64-data.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/ZLIBConfig.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/ZLIBConfigVersion.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/ZLIBTargets.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/brynet-Target-release.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/brynet-config-version.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/brynet-config.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/brynet-release-x86_64-data.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/brynetTargets.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/cmakedeps_macros.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/conan_toolchain.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/mbits-semver-Target-release.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/mbits-semver-config-version.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/mbits-semver-config.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/mbits-semver-release-x86_64-data.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/mbits-semverTargets.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/mbits-utfconv-Target-release.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/mbits-utfconv-config-version.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/mbits-utfconv-config.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/mbits-utfconv-release-x86_64-data.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/mbits-utfconvTargets.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/pybind11-Target-release.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/pybind11-config-version.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/pybind11-config.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/pybind11-release-x86_64-data.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/pybind11Targets.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/tinyxml2-Target-release.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/tinyxml2-config-version.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/tinyxml2-config.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/tinyxml2-release-x86_64-data.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/tinyxml2Targets.cmake
+C:/Users/zheng/Documents/new/zheng_pvz_like_game/find_pkg.cmake

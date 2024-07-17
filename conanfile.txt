@@ -1,0 +1,10 @@
+[requires]
+sdl/2.30.5
+pybind11/2.13.1
+mbits-utfconv/1.0.4
+tinyxml2/10.0.0
+brynet/1.12.2
+
+[generators]
+CMakeDeps
+CMakeToolchain

@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DEE9B0C5-A462-3786-A925-140F9B3F61EA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>game</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">game.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">game</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PATH=;%PATH%</LocalDebuggerEnvironment>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">game.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">game</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PATH=C:/Users/zheng/.conan2/p/b/sdl052da159a470b/p/bin;C:/Users/zheng/.conan2/p/pybin6432d3a4457b4/p/bin;C:/Users/zheng/.conan2/p/mbitsb137b2b82807e/p/bin;C:/Users/zheng/.conan2/p/mbits854d6a8ee38cc/p/bin;C:/Users/zheng/.conan2/p/tinyx06343d75840c6/p/bin;C:/Users/zheng/.conan2/p/opens222f7cf8c41ed/p/bin;C:/Users/zheng/.conan2/p/zlib6f797a4dd16fb/p/bin;%PATH%</LocalDebuggerEnvironment>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">game.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">game</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PATH=;%PATH%</LocalDebuggerEnvironment>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">game.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">game</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PATH=;%PATH%</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>16</ProcessorNumber>
+      <RuntimeLibrary></RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/Debug/game.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/Debug/game.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>16</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/Release/game.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/Release/game.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>16</ProcessorNumber>
+      <RuntimeLibrary></RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/MinSizeRel/game.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/MinSizeRel/game.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>16</ProcessorNumber>
+      <RuntimeLibrary></RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/RelWithDebInfo/game.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/RelWithDebInfo/game.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\zheng\Documents\new\zheng_pvz_like_game\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/zheng/Documents/new/zheng_pvz_like_game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/zheng/Documents/new/zheng_pvz_like_game -BC:/Users/zheng/Documents/new/zheng_pvz_like_game/build --check-stamp-file C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\zheng\.conan2\p\opens222f7cf8c41ed\p\lib\cmake\conan-official-openssl-variables.cmake;C:\Users\zheng\.conan2\p\pybin6432d3a4457b4\p\lib\cmake\pybind11\pybind11Common.cmake;C:\Users\zheng\.conan2\p\pybin6432d3a4457b4\p\lib\cmake\pybind11\pybind11NewTools.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\CMakeFiles\3.30.0\CMakeCCompiler.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\CMakeFiles\3.30.0\CMakeCXXCompiler.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\CMakeFiles\3.30.0\CMakeRCCompiler.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\CMakeFiles\3.30.0\CMakeSystem.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\OpenSSL-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\OpenSSL-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\OpenSSLConfig.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\OpenSSLConfigVersion.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\OpenSSLTargets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\SDL2-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\SDL2-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\SDL2Config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\SDL2ConfigVersion.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\SDL2Targets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\ZLIB-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\ZLIB-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\ZLIBConfig.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\ZLIBConfigVersion.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\ZLIBTargets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\brynet-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\brynet-config-version.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\brynet-config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\brynet-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\brynetTargets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\cmakedeps_macros.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\conan_toolchain.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-semver-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-semver-config-version.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-semver-config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-semver-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-semverTargets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-utfconv-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-utfconv-config-version.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-utfconv-config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-utfconv-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-utfconvTargets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\pybind11-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\pybind11-config-version.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\pybind11-config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\pybind11-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\pybind11Targets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\tinyxml2-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\tinyxml2-config-version.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\tinyxml2-config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\tinyxml2-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\tinyxml2Targets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\find_pkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/zheng/Documents/new/zheng_pvz_like_game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/zheng/Documents/new/zheng_pvz_like_game -BC:/Users/zheng/Documents/new/zheng_pvz_like_game/build --check-stamp-file C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\zheng\.conan2\p\opens222f7cf8c41ed\p\lib\cmake\conan-official-openssl-variables.cmake;C:\Users\zheng\.conan2\p\pybin6432d3a4457b4\p\lib\cmake\pybind11\pybind11Common.cmake;C:\Users\zheng\.conan2\p\pybin6432d3a4457b4\p\lib\cmake\pybind11\pybind11NewTools.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\CMakeFiles\3.30.0\CMakeCCompiler.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\CMakeFiles\3.30.0\CMakeCXXCompiler.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\CMakeFiles\3.30.0\CMakeRCCompiler.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\CMakeFiles\3.30.0\CMakeSystem.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\OpenSSL-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\OpenSSL-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\OpenSSLConfig.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\OpenSSLConfigVersion.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\OpenSSLTargets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\SDL2-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\SDL2-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\SDL2Config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\SDL2ConfigVersion.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\SDL2Targets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\ZLIB-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\ZLIB-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\ZLIBConfig.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\ZLIBConfigVersion.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\ZLIBTargets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\brynet-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\brynet-config-version.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\brynet-config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\brynet-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\brynetTargets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\cmakedeps_macros.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\conan_toolchain.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-semver-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-semver-config-version.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-semver-config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-semver-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-semverTargets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-utfconv-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-utfconv-config-version.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-utfconv-config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-utfconv-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-utfconvTargets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\pybind11-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\pybind11-config-version.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\pybind11-config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\pybind11-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\pybind11Targets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\tinyxml2-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\tinyxml2-config-version.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\tinyxml2-config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\tinyxml2-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\tinyxml2Targets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\find_pkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/zheng/Documents/new/zheng_pvz_like_game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/zheng/Documents/new/zheng_pvz_like_game -BC:/Users/zheng/Documents/new/zheng_pvz_like_game/build --check-stamp-file C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\zheng\.conan2\p\opens222f7cf8c41ed\p\lib\cmake\conan-official-openssl-variables.cmake;C:\Users\zheng\.conan2\p\pybin6432d3a4457b4\p\lib\cmake\pybind11\pybind11Common.cmake;C:\Users\zheng\.conan2\p\pybin6432d3a4457b4\p\lib\cmake\pybind11\pybind11NewTools.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\CMakeFiles\3.30.0\CMakeCCompiler.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\CMakeFiles\3.30.0\CMakeCXXCompiler.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\CMakeFiles\3.30.0\CMakeRCCompiler.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\CMakeFiles\3.30.0\CMakeSystem.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\OpenSSL-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\OpenSSL-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\OpenSSLConfig.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\OpenSSLConfigVersion.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\OpenSSLTargets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\SDL2-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\SDL2-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\SDL2Config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\SDL2ConfigVersion.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\SDL2Targets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\ZLIB-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\ZLIB-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\ZLIBConfig.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\ZLIBConfigVersion.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\ZLIBTargets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\brynet-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\brynet-config-version.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\brynet-config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\brynet-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\brynetTargets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\cmakedeps_macros.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\conan_toolchain.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-semver-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-semver-config-version.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-semver-config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-semver-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-semverTargets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-utfconv-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-utfconv-config-version.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-utfconv-config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-utfconv-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-utfconvTargets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\pybind11-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\pybind11-config-version.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\pybind11-config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\pybind11-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\pybind11Targets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\tinyxml2-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\tinyxml2-config-version.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\tinyxml2-config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\tinyxml2-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\tinyxml2Targets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\find_pkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/zheng/Documents/new/zheng_pvz_like_game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/zheng/Documents/new/zheng_pvz_like_game -BC:/Users/zheng/Documents/new/zheng_pvz_like_game/build --check-stamp-file C:/Users/zheng/Documents/new/zheng_pvz_like_game/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\zheng\.conan2\p\opens222f7cf8c41ed\p\lib\cmake\conan-official-openssl-variables.cmake;C:\Users\zheng\.conan2\p\pybin6432d3a4457b4\p\lib\cmake\pybind11\pybind11Common.cmake;C:\Users\zheng\.conan2\p\pybin6432d3a4457b4\p\lib\cmake\pybind11\pybind11NewTools.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\CMakeFiles\3.30.0\CMakeCCompiler.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\CMakeFiles\3.30.0\CMakeCXXCompiler.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\CMakeFiles\3.30.0\CMakeRCCompiler.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\CMakeFiles\3.30.0\CMakeSystem.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\OpenSSL-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\OpenSSL-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\OpenSSLConfig.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\OpenSSLConfigVersion.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\OpenSSLTargets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\SDL2-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\SDL2-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\SDL2Config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\SDL2ConfigVersion.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\SDL2Targets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\ZLIB-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\ZLIB-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\ZLIBConfig.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\ZLIBConfigVersion.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\ZLIBTargets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\brynet-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\brynet-config-version.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\brynet-config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\brynet-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\brynetTargets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\cmakedeps_macros.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\conan_toolchain.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-semver-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-semver-config-version.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-semver-config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-semver-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-semverTargets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-utfconv-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-utfconv-config-version.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-utfconv-config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-utfconv-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\mbits-utfconvTargets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\pybind11-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\pybind11-config-version.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\pybind11-config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\pybind11-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\pybind11Targets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\tinyxml2-Target-release.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\tinyxml2-config-version.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\tinyxml2-config.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\tinyxml2-release-x86_64-data.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\tinyxml2Targets.cmake;C:\Users\zheng\Documents\new\zheng_pvz_like_game\find_pkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\zheng\Documents\new\zheng_pvz_like_game\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\zheng\Documents\new\zheng_pvz_like_game\build\ZERO_CHECK.vcxproj">
+      <Project>{ECCC702F-715C-3E08-80C6-F4C6C67D3E5C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
