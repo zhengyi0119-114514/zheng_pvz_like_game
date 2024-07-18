@@ -59,11 +59,117 @@
         },
         {
             "name": "conan",
+            "hidden": true,
             "binaryDir": "${sourceDir}/build",
             "installDir": "${sourceDir}/build",
             "cacheVariables": {
                 "CMAKE_TOOLCHAIN_FILE": "${sourceDir}/build/conan_toolchain.cmake"
             }
+        },
+        {
+            "name": "conan-debug",
+            "inherits":"conan",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE":"Debug"
+            }
+        },
+        {   
+            "name": "conan-release",
+            "inherits":"conan",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE":"Release"
+            }
+        },
+        {
+            "name": "default",
+            "binaryDir": "${sourceDir}/build",
+            "installDir": "${sourceDir}/build",
+            "hidden": true
+        },
+        {
+            "name": "debug",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE":"Debug"
+            },
+            "hidden": true
+        },
+        {
+            "name": "release",
+            "hidden": true,
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE":"Release"
+            }
+        },
+        {
+            "name": "clang",
+            "cacheVariables": {
+                "CMAKE_C_COMPILER":"clang",
+                "CMAKE_CXX_COMPILER":"clang++"
+            },
+            "hidden": true
+        },
+        {
+            "name": "gnu",
+            "hidden": true,
+            "cacheVariables": {
+                "CMAKE_C_COMPILER":"gcc",
+                "CMAKE_CXX_COMPILER":"g++"
+            }
+        },
+        {
+            "name": "msvc",
+            "hidden": true,
+            "cacheVariables": {
+                "CMAKE_C_COMPILER":"cl.exe",
+                "CMAKE_CXX_COMPILER":"cl.exe"
+            }
+        },
+        {
+            "name": "default-debug-clang",
+            "inherits":[
+                "default",
+                "clang",
+                "debug"
+            ]
+        },
+        {
+            "name": "default-debug-gnu",
+            "inherits":[
+                "default",
+                "gnu",
+                "debug"
+            ]
+        },
+        {
+            "name": "default-debug-msvc",
+            "inherits":[
+                "default",
+                "debug",
+                "msvc"
+            ]
+        },
+        {
+            "name": "default-release-clang",
+            "inherits":[
+                "default",
+                "gnu"
+            ]
+        },
+        {
+            "name": "default-release-gnu",
+            "inherits":[
+                "default",
+                "gnu",
+                "release"
+            ]
+        },
+        {
+            "name": "default-release-msvc",
+            "inherits":[
+                "default",
+                "release",
+                "msvc"
+            ]
         }
     ]
 }

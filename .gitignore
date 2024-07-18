@@ -1,8 +1,10 @@
 build/
+build/*.*
 out/
 .vs/
 .vscode/
 !.vscode/launch.json
 !.vscode/task.json
+build
 
 CMakeUserPresets.json
